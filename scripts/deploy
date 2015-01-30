@@ -1,4 +1,6 @@
 #!/bin/bash
-git push heroku1 master
-git push heroku2 master
-git push heroku3 master
+git push heroku-1 master
+git push heroku-2 master
+git push heroku-3 master
+git push heroku-4 master
+git push heroku-5 master
