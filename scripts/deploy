@@ -1,0 +1,4 @@
+#!/bin/bash
+git push heroku1 master
+git push heroku2 master
+git push heroku3 master

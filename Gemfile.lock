@@ -1,0 +1,41 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cassandra (0.23.0)
+      json
+      rake
+      simple_uuid (~> 0.3)
+      thrift_client (~> 0.7, < 0.9)
+    cassandra-cql (1.2.2)
+      simple_uuid (>= 0.2.0)
+      thrift_client (>= 0.7.1, < 0.9)
+    dalli (2.7.2)
+    em-hiredis (0.3.0)
+      eventmachine (~> 1.0)
+      hiredis (~> 0.5.0)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
+    eventmachine (1.0.4)
+    hiredis (0.5.2)
+    http_parser.rb (0.6.0)
+    json (1.8.2)
+    netrc (0.7.9)
+    rake (10.4.2)
+    rest_client (1.8.2)
+      netrc (~> 0.7.7)
+    simple_uuid (0.4.0)
+    thrift (0.8.0)
+    thrift_client (0.8.4)
+      thrift (~> 0.8.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cassandra
+  cassandra-cql
+  dalli
+  em-hiredis
+  em-websocket
+  rest_client
