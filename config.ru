@@ -1,5 +1,5 @@
 require './lib/app_server'
-require File.expand_path("../initialize/string", __FILE__)
+require File.expand_path("#{File.dirname(__FILE__)}/../initializers/string", __FILE__)
 
 $stdout.sync = true
 

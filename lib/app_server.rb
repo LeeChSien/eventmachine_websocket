@@ -8,8 +8,6 @@ require 'singleton'
 require 'logger'
 require 'json'
 
-require File.expand_path("#{File.dirname(__FILE__)}/../initializers/string", __FILE__)
-
 class AppServer
   include Singleton
 
